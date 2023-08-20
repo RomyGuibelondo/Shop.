@@ -1,0 +1,54 @@
+.Auth-form-container {
+  display: grid; 
+  grid-template-columns: 0.9fr 1.6fr 1.9fr 0.1fr; 
+  grid-template-rows: 0.5fr 2.2fr 0.3fr; 
+  gap: 4% 1%; 
+  grid-template-areas: 
+    ". . . ."
+    ". delivery-info payment ."
+    ". checkout-details . ."; 
+}
+
+.delivery-info { grid-area: delivery-info; }
+.payment { grid-area: payment; }
+.checkout-details { grid-area: checkout-details; }
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: left;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+
+.holder{
+display: flex;
+  
+}
+
+button{
+background-color: pink;
+color: white;
+}
+
